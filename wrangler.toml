@@ -1,0 +1,3 @@
+echo 'name = "cl-deploy-ubuntu"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"' > wrangler.toml
