@@ -1,3 +1,4 @@
 name = "cl-deploy-ubuntu"
+compatibility_date = "2025-04-05"  # Use today's date or a recent date
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
