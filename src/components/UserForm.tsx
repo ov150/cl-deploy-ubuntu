@@ -14,7 +14,7 @@ export default function UserForm() {
     if(state?.success == true){
       router.push("/posts/create");
     }
-  }, [state])
+  }, [state, router])
 
   return (
     <form action={formAction} className="space-y-4">
