@@ -1,15 +1,16 @@
 // app/posts/page.tsx
+
 import { prisma } from '@/lib/prisma'
 
 interface Author{
-    id:string;
+    id:number;
     username:string | null;
     email:string;
 }
 
 
 interface Post{
-    id: string;
+    id: number;
     title:string;
     content:string | null;
     author: Author;
